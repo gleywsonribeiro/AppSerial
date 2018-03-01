@@ -20,7 +20,7 @@ public class Main extends SerialCom {
     public static void main(String[] args) {
 
         //Iniciando leitura serial
-        SerialComLeitura leitura = new SerialComLeitura("COM1", 9600, 0);
+        SerialComLeitura leitura = new SerialComLeitura("COM2", 9600, 0);
         leitura.HabilitarLeitura();
         leitura.ObterIdDaPorta();
         leitura.AbrirPorta();
